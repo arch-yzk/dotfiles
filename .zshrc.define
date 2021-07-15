@@ -1,0 +1,5 @@
+chpwd() {
+    if [[ $(pwd) != $HOME ]]; then;
+        exa -T -L 1;
+    fi
+}
