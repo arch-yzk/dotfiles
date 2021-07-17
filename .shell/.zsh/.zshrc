@@ -22,3 +22,6 @@ export HISTSIZE=100000
 export SAVEHIST=100000
 setopt HIST_IGNORE_DUPS
 setopt EXTENDED_HISTORY
+
+# control
+setopt no_flow_control
