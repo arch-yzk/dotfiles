@@ -14,7 +14,7 @@ setopt pushd_ignore_dups
 autoload -Uz colors && colors;
 PROMPT="
 %{$fg[magenta]%}%M://%d %{$reset_color%}
-%{$fg[red]%}>%{$fg[magenta]%}>%{$fg[yellow]%}>%{$fg[cyan]%}> %{$reset_color%}"
+%{$fg[green]%}%n %{$fg[red]%}>%{$fg[magenta]%}>%{$fg[yellow]%}>%{$fg[cyan]%}> %{$reset_color%}"
 
 # history
 export HISTFILE=$HOME/.common_history
