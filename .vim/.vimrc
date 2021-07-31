@@ -105,9 +105,6 @@
 
     " dein.vimインストール先(なければ作成
     let s:dein_dir = expand('~/.vim/dein')
-    if !isdirectory(s:dein_dir)
-        mkdir(s:dein_dir)
-    endif
     
     " dein.vim実態があるディレクトリ
     let s:dein_repo_dir = s:dein_dir . '/repos/github.com/Shougo/dein.vim'
