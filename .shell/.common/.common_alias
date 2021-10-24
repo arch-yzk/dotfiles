@@ -8,12 +8,6 @@ alias sudi="sudo -i -k"
 dotacat=/usr/bin/dotacat
 if [ -e $dotacat ];then
     alias lolcat="dotacat"
-    alias cat="lolcat"
-fi
-
-lolcat=/usr/bin/lolcat
-if [ -e $lolcat ];then
-    alias cat="lolcat"
 fi
 
 paru=/usr/bin/paru
